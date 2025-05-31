@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>u0.ai</title>
+        <link rel="stylesheet" href="assets/css/photoswipe.css" />
+        <link
+            rel="stylesheet"
+            href="assets/css/photoswipe-dynamic-caption-plugin.css"
+        />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>gchristen portfolio</h1>
+            <p class="subtitle">
+                u0 is where I share imagery - either photography or ai generated
+                visuals - as I explore the world through sight rather than words
+            </p>
+            <div class="gallery" id="gallery">
+                <!-- Gallery items will be dynamically added here -->
+            </div>
+
+            <footer class="footer">
+                <div class="footer-line"></div>
+                <div class="copyright">Copyright © 2025 gchristen.com</div>
+            </footer>
+        </div>
+
+        <script type="module">
+            import PhotoSwipeLightbox from "./assets/js/photoswipe-lightbox.esm.min.js";
+            import PhotoSwipe from "./assets/js/photoswipe.esm.min.js";
+            import PhotoSwipeDynamicCaption from "./assets/js/photoswipe-dynamic-caption-plugin.esm.min.js";
+            import galleryItems from "./assets/js/gallery-data.js";
+
+            // Initialize PhotoSwipe Lightbox
+            const lightbox = new PhotoSwipeLightbox({
+                gallery: "#gallery",
+                children: "a",
+                pswpModule: PhotoSwipe,
+                loop: true,
+                padding: { top: 20, bottom: 40, left: 100, right: 100 },
+                wheelToZoom: true,
+                bgOpacity: 0.8,
+                showHideAnimationType: "zoom",
+                showAnimationDuration: 300,
+                hideAnimationDuration: 300,
+                easing: "cubic-bezier(.4,0,.22,1)",
+            });
+
+            // Initialize Dynamic Caption plugin
+            const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+                type: "below", // Force caption to be below the image
+                captionContent: (slide) => {
+                    const item = slide.data.element.dataset;
+                    return `
+          <div>
+            <h3>${item.title}</h3>
+            <div class="photo-meta">${item.camera} • ${item.lens} • ${item.fstop} • ${item.exposure} • ISO ${item.iso}</div>
+          </div>
+        `;
+                },
+            });
+
+            // Add gallery items to the DOM
+            const galleryElement = document.getElementById("gallery");
+
+            galleryItems.forEach((item, index) => {
+                const linkElement = document.createElement("a");
+                linkElement.href = item.src;
+                linkElement.dataset.pswpWidth = item.width;
+                linkElement.dataset.pswpHeight = item.height;
+                linkElement.classList.add("gallery-item");
+                linkElement.classList.add(item.size);
+
+                // We no longer need to calculate aspect ratio as we're using object-fit: cover
+
+                // Create an aspect ratio container
+                const aspectContainer = document.createElement("div");
+                aspectContainer.classList.add("aspect-container");
+
+                // Set data attributes for caption plugin
+                linkElement.dataset.title = item.title;
+                linkElement.dataset.description = item.description;
+                linkElement.dataset.camera = item.camera;
+                linkElement.dataset.lens = item.lens;
+                linkElement.dataset.fstop = item.fstop;
+                linkElement.dataset.exposure = item.exposure;
+                linkElement.dataset.iso = item.iso;
+                linkElement.dataset.filters = item.filters;
+
+                const imgElement = document.createElement("img");
+                imgElement.src = item.src;
+                imgElement.alt = item.alt;
+
+                // Always fill the thumbnail container and crop as needed
+                imgElement.style.width = "100%";
+                imgElement.style.height = "100%";
+                imgElement.style.objectFit = "cover";
+
+                // Set the data-cropped attribute for proper animations
+                linkElement.dataset.cropped = "true";
+
+                // Center the image in its container
+                imgElement.style.position = "absolute";
+                imgElement.style.top = "50%";
+                imgElement.style.left = "50%";
+                imgElement.style.transform = "translate(-50%, -50%)";
+
+                aspectContainer.appendChild(imgElement);
+                linkElement.appendChild(aspectContainer);
+                galleryElement.appendChild(linkElement);
+            });
+
+            lightbox.init();
+        </script>
+    </body>
+</html>
