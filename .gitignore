@@ -1,0 +1,10 @@
+# Python script for processing images
+process_images.py
+*.pyc
+__pycache__/
+
+# Image backups
+*.bak
+
+# MacOS
+.DS_Store
