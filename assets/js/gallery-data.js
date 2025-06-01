@@ -370,6 +370,34 @@ const galleryItems = [
     iso: "200",
     size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
   },
+  {
+    src: "assets/images/np2/np-38.jpg",
+    width: 1800,
+    height: 1167,
+    alt: "Vibrant Pub Wall",
+    title: "Vibrant Pub Wall",
+    description: "Cyclist passing a turquoise pub wall adorned with hanging flower baskets and vintage drink signs.",
+    camera: "Hasselblad X2D 100C",
+    lens: "22.0/55.0mm",
+    fstop: "f/22.0",
+    exposure: "100",
+    iso: "1600",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np2/np-39.jpg",
+    width: 1800,
+    height: 1642,
+    alt: "Garden Flower Baskets",
+    title: "Garden Flower Baskets",
+    description: "Colorful hanging flower baskets mounted on a bright blue wall with a rustic garden sign.",
+    camera: "Hasselblad X2D 100C",
+    lens: "5.6/55.0mm",
+    fstop: "f/5.6",
+    exposure: "80",
+    iso: "200",
+    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
+  },
 ];
 
 // Export the gallery data
