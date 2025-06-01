@@ -23,6 +23,12 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+.header_image {
+    width: 0.75em;
+    height: 0.75em;
+    margin: 5px 10px -7px 3px;
+}
+
 .subtitle {
     margin-bottom: 2rem;
     color: #668;
