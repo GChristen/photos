@@ -138,7 +138,8 @@ const galleryItems = [
     height: 1725,
     alt: "Dog Watching the Sea",
     title: "Dog Watching the Sea",
-    description: "Silhouette of a dog gazing out through a window at the ocean view beyond.",
+    description:
+      "Silhouette of a dog gazing out through a window at the ocean view beyond.",
     camera: "Apple iPhone 13 Pro",
     lens: "1.5/5.7mm",
     fstop: "f/1.5",
@@ -152,7 +153,8 @@ const galleryItems = [
     height: 2300,
     alt: "Urban Street Art",
     title: "Urban Street Art",
-    description: "Weathered electrical box featuring street art of a child against a vibrant blue wall.",
+    description:
+      "Weathered electrical box featuring street art of a child against a vibrant blue wall.",
     camera: "Apple iPhone 13 Pro",
     lens: "1.5/5.7mm",
     fstop: "f/1.5",
@@ -166,7 +168,8 @@ const galleryItems = [
     height: 1294,
     alt: "Green Figurine",
     title: "Green Figurine",
-    description: "Minimalist green figurine displayed against a dark background with subtle lighting.",
+    description:
+      "Minimalist green figurine displayed against a dark background with subtle lighting.",
     camera: "Unknown Camera",
     lens: "Unknown Lens",
     fstop: "f/2.8",
@@ -180,7 +183,8 @@ const galleryItems = [
     height: 2300,
     alt: "Character Sketch",
     title: "Character Sketch",
-    description: "Simple line drawing of a rounded character on lined paper showing a playful design concept.",
+    description:
+      "Simple line drawing of a rounded character on lined paper showing a playful design concept.",
     camera: "Apple iPhone 11",
     lens: "1.8/4.2mm",
     fstop: "f/1.8",
@@ -194,7 +198,8 @@ const galleryItems = [
     height: 2300,
     alt: "Rainbow Over Chapel",
     title: "Rainbow Over Chapel",
-    description: "Stone chapel standing on a manicured lawn with a vibrant rainbow arching across the sky.",
+    description:
+      "Stone chapel standing on a manicured lawn with a vibrant rainbow arching across the sky.",
     camera: "Apple iPhone 11",
     lens: "1.8/4.2mm",
     fstop: "f/1.8",
@@ -208,7 +213,8 @@ const galleryItems = [
     height: 1294,
     alt: "Terrier Portrait",
     title: "Terrier Portrait",
-    description: "Close-up portrait of a terrier with expressive eyes and whiskers against a soft background.",
+    description:
+      "Close-up portrait of a terrier with expressive eyes and whiskers against a soft background.",
     camera: "SONY ILCE-6000",
     lens: "2.0/50.0mm",
     fstop: "f/2.0",
@@ -222,7 +228,8 @@ const galleryItems = [
     height: 1725,
     alt: "Garden Sanctuary",
     title: "Garden Sanctuary",
-    description: "Peaceful garden scene with a majestic tree and woven basket garden feature on manicured lawn.",
+    description:
+      "Peaceful garden scene with a majestic tree and woven basket garden feature on manicured lawn.",
     camera: "Apple iPhone 11",
     lens: "1.8/4.2mm",
     fstop: "f/1.8",
@@ -236,7 +243,8 @@ const galleryItems = [
     height: 1725,
     alt: "Coastal Companion",
     title: "Coastal Companion",
-    description: "Terrier dog sitting attentively on a bench with turquoise sea waters in the background.",
+    description:
+      "Terrier dog sitting attentively on a bench with turquoise sea waters in the background.",
     camera: "Apple iPhone 13 Pro",
     lens: "2.8/9.0mm",
     fstop: "f/2.8",
@@ -250,7 +258,8 @@ const galleryItems = [
     height: 1725,
     alt: "Cozy Canine",
     title: "Cozy Canine",
-    description: "Terrier peeking out from under a cream knitted blanket while resting on a blue sofa.",
+    description:
+      "Terrier peeking out from under a cream knitted blanket while resting on a blue sofa.",
     camera: "Apple iPhone 13 Pro",
     lens: "2.8/9.0mm",
     fstop: "f/2.8",
@@ -264,7 +273,8 @@ const galleryItems = [
     height: 2300,
     alt: "Playful Pup",
     title: "Playful Pup",
-    description: "Terrier holding a plush toy in its mouth, standing against a soft background with natural light.",
+    description:
+      "Terrier holding a plush toy in its mouth, standing against a soft background with natural light.",
     camera: "Apple iPhone 13 Pro",
     lens: "2.8/9.0mm",
     fstop: "f/2.8",
@@ -278,7 +288,8 @@ const galleryItems = [
     height: 1350,
     alt: "Park Trail",
     title: "Park Trail",
-    description: "Tranquil forest path with a dog resting in the shade under an oak tree.",
+    description:
+      "Tranquil forest path with a dog resting in the shade under an oak tree.",
     camera: "Hasselblad X2D 100C",
     lens: "4.0/55.0mm",
     fstop: "f/4.0",
@@ -292,7 +303,8 @@ const galleryItems = [
     height: 1350,
     alt: "Gelato Queue",
     title: "Gelato Queue",
-    description: "Busy artisanal gelato shop with a line of customers waiting outside on a summer day.",
+    description:
+      "Busy artisanal gelato shop with a line of customers waiting outside on a summer day.",
     camera: "Hasselblad X2D 100C",
     lens: "2.8/55.0mm",
     fstop: "f/2.8",
@@ -306,7 +318,8 @@ const galleryItems = [
     height: 1350,
     alt: "Skatepark Mural",
     title: "Skatepark Mural",
-    description: "Vibrant graffiti art decorating a skatepark wall with basketball courts visible in the background.",
+    description:
+      "Vibrant graffiti art decorating a skatepark wall with basketball courts visible in the background.",
     camera: "Hasselblad X2D 100C",
     lens: "8.0/55.0mm",
     fstop: "f/8.0",
@@ -320,7 +333,8 @@ const galleryItems = [
     height: 1350,
     alt: "Park Pup",
     title: "Park Pup",
-    description: "Happy terrier resting on a concrete ledge at a park with trees framing the background.",
+    description:
+      "Happy terrier resting on a concrete ledge at a park with trees framing the background.",
     camera: "Hasselblad X2D 100C",
     lens: "3.4/55.0mm",
     fstop: "f/3.4",
@@ -334,7 +348,8 @@ const galleryItems = [
     height: 1800,
     alt: "Victorian Bandstand",
     title: "Victorian Bandstand",
-    description: "Elegant Victorian-era bandstand with ornate dome and red columns in a public park.",
+    description:
+      "Elegant Victorian-era bandstand with ornate dome and red columns in a public park.",
     camera: "Hasselblad X2D 100C",
     lens: "3.4/55.0mm",
     fstop: "f/3.4",
@@ -348,7 +363,8 @@ const galleryItems = [
     height: 817,
     alt: "Summer Park Day",
     title: "Summer Park Day",
-    description: "Panoramic view of a crowded park on a summer day with people relaxing on the grass.",
+    description:
+      "Panoramic view of a crowded park on a summer day with people relaxing on the grass.",
     camera: "Hasselblad X2D 100C",
     lens: "2.5/55.0mm",
     fstop: "f/2.5",
@@ -362,7 +378,8 @@ const galleryItems = [
     height: 1350,
     alt: "Cyclist in Green",
     title: "Cyclist in Green",
-    description: "Lone cyclist passing through a verdant park with ancient oak trees creating a natural frame.",
+    description:
+      "Lone cyclist passing through a verdant park with ancient oak trees creating a natural frame.",
     camera: "Hasselblad X2D 100C",
     lens: "2.8/55.0mm",
     fstop: "f/2.8",
@@ -372,11 +389,12 @@ const galleryItems = [
   },
   {
     src: "assets/images/np2/np-38.jpg",
-    width: 1800,
-    height: 1167,
+    width: 2000,
+    height: 1199,
     alt: "Vibrant Pub Wall",
     title: "Vibrant Pub Wall",
-    description: "Cyclist passing a turquoise pub wall adorned with hanging flower baskets and vintage drink signs.",
+    description:
+      "Cyclist passing a turquoise pub wall adorned with hanging flower baskets and vintage drink signs.",
     camera: "Hasselblad X2D 100C",
     lens: "22.0/55.0mm",
     fstop: "f/22.0",
@@ -386,11 +404,12 @@ const galleryItems = [
   },
   {
     src: "assets/images/np2/np-39.jpg",
-    width: 1800,
-    height: 1642,
+    width: 1996,
+    height: 2000,
     alt: "Garden Flower Baskets",
     title: "Garden Flower Baskets",
-    description: "Colorful hanging flower baskets mounted on a bright blue wall with a rustic garden sign.",
+    description:
+      "Colorful hanging flower baskets mounted on a bright blue wall with a rustic garden sign.",
     camera: "Hasselblad X2D 100C",
     lens: "5.6/55.0mm",
     fstop: "f/5.6",
