@@ -417,6 +417,337 @@ const galleryItems = [
     iso: "200",
     size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
   },
+  ,
+  {
+    src: "assets/images/np3/np-48.jpg",
+    width: 2000,
+    height: 1125,
+    alt: "Solitary Poppy",
+    title: "Solitary Poppy",
+    description:
+      "A vibrant red poppy catches the light in a summer meadow, its delicate petals creating a striking focal point against the dreamy bokeh background.",
+    camera: "Hasselblad X2D 100C",
+    lens: "3.2/55.0mm",
+    fstop: "f/3.2",
+    exposure: "1500",
+    iso: "800",
+    size: "large", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-49.jpg",
+    width: 2000,
+    height: 2000,
+    alt: "Busy Visitor",
+    title: "Busy Visitor",
+    description:
+      "A bumblebee diligently works among yellow wildflowers, capturing a moment of natural harmony in this intimate macro shot.",
+    camera: "Hasselblad X2D 100C",
+    lens: "3.4/55.0mm",
+    fstop: "f/3.4",
+    exposure: "1500",
+    iso: "200",
+    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-41.jpg",
+    width: 2000,
+    height: 1250,
+    alt: "Park Life",
+    title: "Park Life",
+    description:
+      "People relax on a sunny afternoon in a sprawling urban park, with mature trees providing shade as city dwellers enjoy the green space.",
+    camera: "SONY ILCE-6000",
+    lens: "10.0/50.0mm",
+    fstop: "f/10.0",
+    exposure: "125",
+    iso: "100",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-40.jpg",
+    width: 2000,
+    height: 738,
+    alt: "Summer Gathering",
+    title: "Summer Gathering",
+    description:
+      "A panoramic view of a bustling park on a warm day, showcasing the communal nature of urban green spaces where people come together to enjoy the outdoors.",
+    camera: "SONY ILCE-6000",
+    lens: "10.0/50.0mm",
+    fstop: "f/10.0",
+    exposure: "125",
+    iso: "100",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-42.jpg",
+    width: 2000,
+    height: 1125,
+    alt: "Cycling Through the Park",
+    title: "Cycling Through the Park",
+    description:
+      "A cyclist glides past on a summer day, with the park's lively atmosphere creating a backdrop of urban recreation and movement.",
+    camera: "SONY ILCE-6000",
+    lens: "9.0/50.0mm",
+    fstop: "f/9.0",
+    exposure: "200",
+    iso: "100",
+    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-43.jpg",
+    width: 2000,
+    height: 1125,
+    alt: "Stroll in Pink",
+    title: "Stroll in Pink",
+    description:
+      "A couple walks along the park path, the woman's bright pink dress adding a splash of color to the verdant summer landscape.",
+    camera: "SONY ILCE-6000",
+    lens: "9.0/50.0mm",
+    fstop: "f/9.0",
+    exposure: "250",
+    iso: "100",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-47.jpg",
+    width: 2000,
+    height: 738,
+    alt: "Meadow Poppy",
+    title: "Meadow Poppy",
+    description:
+      "A single red poppy stands tall among wild grasses and flowers, its vibrant color punctuating the soft, naturalistic meadow setting.",
+    camera: "Hasselblad X2D 100C",
+    lens: "3.2/55.0mm",
+    fstop: "f/3.2",
+    exposure: "1500",
+    iso: "800",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-46.jpg",
+    width: 1500,
+    height: 2000,
+    alt: "Race Day",
+    title: "Race Day",
+    description:
+      "Cyclists compete in formation during a race, their focused determination captured in dramatic black and white as they navigate through tree-lined roads.",
+    camera: "Hasselblad X2D 100C",
+    lens: "3.4/55.0mm",
+    fstop: "f/3.4",
+    exposure: "750",
+    iso: "400",
+    size: "tall", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-44.jpg",
+    width: 2000,
+    height: 1333,
+    alt: "Window Light",
+    title: "Window Light",
+    description:
+      "Natural light streams through a skylight, creating geometric shadows and highlighting the architectural interplay of light and form in this interior study.",
+    camera: "Hasselblad X2D 100C",
+    lens: "5.6/55.0mm",
+    fstop: "f/5.6",
+    exposure: "2",
+    iso: "3200",
+    size: "large", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-50.jpg",
+    width: 2000,
+    height: 1429,
+    alt: "Cycling Community",
+    title: "Cycling Community",
+    description:
+      "A gathering of cyclists takes a break in the park, their colorful bikes and gear creating a vibrant scene of community and shared passion for cycling.",
+    camera: "Hasselblad X2D 100C",
+    lens: "11.0/55.0mm",
+    fstop: "f/11.0",
+    exposure: "80",
+    iso: "400",
+    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np3/np-45.jpg",
+    width: 2000,
+    height: 1333,
+    alt: "Pack Leaders",
+    title: "Pack Leaders",
+    description:
+      "Professional cyclists maintain their pace during a race, captured in monochrome to emphasize the intensity and athletic form of competitive cycling.",
+    camera: "Hasselblad X2D 100C",
+    lens: "3.4/55.0mm",
+    fstop: "f/3.4",
+    exposure: "750",
+    iso: "64",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np4/np-52.jpg",
+    width: 2200,
+    height: 1650,
+    alt: "Urban Pause",
+    title: "Urban Pause",
+    description:
+      "Empty park benches wait beneath a mature tree, their weathered wood and metal frames creating a quiet corner against the stark brick architecture of the city.",
+    camera: "Hasselblad X2D 100C",
+    lens: "11.0/55.0mm",
+    fstop: "f/11.0",
+    exposure: "160",
+    iso: "800",
+    size: "large", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np4/np-54.jpg",
+    width: 2200,
+    height: 1571,
+    alt: "Park Path Companion",
+    title: "Park Path Companion",
+    description:
+      "A scruffy terrier explores a tree-lined park path, with dappled sunlight filtering through the canopy and a weeping willow creating a natural backdrop.",
+    camera: "Hasselblad X2D 100C",
+    lens: "2.5/55.0mm",
+    fstop: "f/2.5",
+    exposure: "80",
+    iso: "100",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np4/np-53.jpg",
+    width: 2200,
+    height: 1650,
+    alt: "Victorian Pavilion Details",
+    title: "Victorian Pavilion Details",
+    description:
+      "Ornate Victorian ironwork decorates the ceiling of a historic pavilion, featuring intricate turquoise and burgundy painted brackets supporting the cream-colored roof structure.",
+    camera: "Hasselblad X2D 100C",
+    lens: "16.0/55.0mm",
+    fstop: "f/16.0",
+    exposure: "100",
+    iso: "800",
+    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np4/np-51.jpg",
+    width: 2200,
+    height: 1467,
+    alt: "Speed in Orange",
+    title: "Speed in Orange",
+    description:
+      "A delivery driver in vibrant orange blurs past a brick wall and a stunning door.",
+    camera: "Hasselblad X2D 100C",
+    lens: "11.0/55.0mm",
+    fstop: "f/11.0",
+    exposure: "50",
+    iso: "800",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np5/np-55.jpg",
+    width: 2000,
+    height: 1500,
+    alt: "Garden Retreat",
+    title: "Garden Retreat",
+    description:
+      "A weathered wooden bench sits peacefully beneath an arching tree canopy, offering a quiet spot for contemplation along a garden path surrounded by lush greenery.",
+    camera: "Hasselblad X2D 100C",
+    lens: "2.5/55.0mm",
+    fstop: "f/2.5",
+    exposure: "60",
+    iso: "400",
+    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np5/np-56.jpg",
+    width: 2000,
+    height: 1500,
+    alt: "Curious Schnauzer",
+    title: "Curious Schnauzer",
+    description:
+      "A friendly schnauzer gazes upward with an endearing expression, their distinctive beard and eyebrows perfectly capturing the breed's characteristic charm.",
+    camera: "Hasselblad X2D 100C",
+    lens: "3.4/55.0mm",
+    fstop: "f/3.4",
+    exposure: "60",
+    iso: "200",
+    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np5/np-57.jpg",
+    width: 1283,
+    height: 2000,
+    alt: "Urban Utility",
+    title: "Urban Utility",
+    description:
+      "Weathered gas meters nestle between contrasting brick walls, where ivy creeps through the urban infrastructure, softening the industrial elements with nature's persistence.",
+    camera: "Hasselblad X2D 100C",
+    lens: "3.4/55.0mm",
+    fstop: "f/3.4",
+    exposure: "80",
+    iso: "100",
+    size: "tall", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np6/np-59.jpg",
+    width: 2000,
+    height: 1500,
+    alt: "Woodland Visitor",
+    title: "Woodland Visitor",
+    description:
+      "A gray squirrel perches alertly on a diagonal branch, its fluffy tail and bright eyes captured against a dreamy green bokeh of forest foliage.",
+    camera: "Hasselblad X2D 100C",
+    lens: "2.8/55.0mm",
+    fstop: "f/2.8",
+    exposure: "400",
+    iso: "800",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np5/np-58.jpg",
+    width: 2000,
+    height: 1500,
+    alt: "Sunflowers and Sketches",
+    title: "Sunflowers and Sketches",
+    description:
+      "Bright yellow sunflowers bring warmth to an interior space, their cheerful blooms contrasting with whimsical robot sketches on the wall behind them.",
+    camera: "Hasselblad X2D 100C",
+    lens: "8.0/55.0mm",
+    fstop: "f/8.0",
+    exposure: "0.3",
+    iso: "6400",
+    size: "large", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np6/np-60.jpg",
+    width: 1500,
+    height: 2000,
+    alt: "Portuguese Patterns",
+    title: "Portuguese Patterns",
+    description:
+      "Traditional Portuguese azulejo tiles featuring blue and white geometric patterns frame a weathered door, showcasing the enduring beauty of decorative tilework.",
+    camera: "Hasselblad X2D 100C",
+    lens: "2.5/55.0mm",
+    fstop: "f/2.5",
+    exposure: "2000",
+    iso: "800",
+    size: "tall", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np6/np-61.jpg",
+    width: 1397,
+    height: 2000,
+    alt: "Spice Jar Still Life",
+    title: "Spice Jar Still Life",
+    description:
+      "Cinnamon sticks rest in a vintage glass spice jar with cork stopper, the reverse-etched label creating an elegant minimalist composition against soft window light.",
+    camera: "Hasselblad X2D 100C",
+    lens: "2.5/55.0mm",
+    fstop: "f/2.5",
+    exposure: "2000",
+    iso: "800",
+    size: "tall", // Options: 'normal', 'wide', 'tall', 'large'
+  },
 ];
 
 // Export the gallery data
