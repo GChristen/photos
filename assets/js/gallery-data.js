@@ -748,6 +748,20 @@ const galleryItems = [
     iso: "800",
     size: "tall", // Options: 'normal', 'wide', 'tall', 'large'
   },
+  {
+    src: "assets/images/np6/np-62.jpg",
+    width: 3000,
+    height: 2239,
+    alt: "Morning dew on a windshield",
+    title: "Morning dew on a windshield",
+    description: "Morning dew on a windshield",
+    camera: "Hasselblad X2D 100C",
+    lens: "2.5/55.0mm",
+    fstop: "f/2.5",
+    exposure: "180",
+    iso: "64",
+    size: "large", // Options: 'normal', 'wide', 'tall', 'large'
+  },
 ];
 
 // Export the gallery data
