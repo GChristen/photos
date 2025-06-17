@@ -730,7 +730,7 @@ const galleryItems = [
     fstop: "f/2.5",
     exposure: "180",
     iso: "64",
-    size: "large", // Options: 'normal', 'wide', 'tall', 'large'
+    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
   },
   ,
   {
@@ -774,7 +774,7 @@ const galleryItems = [
     fstop: "f/8.0",
     exposure: "60",
     iso: "400",
-    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
+    size: "large", // Options: 'normal', 'wide', 'tall', 'large'
   },
   {
     src: "assets/images/np7/np-64.jpg",
