@@ -163,36 +163,6 @@ const galleryItems = [
     size: "tall", // Options: 'normal', 'wide', 'tall', 'large'
   },
   {
-    src: "assets/images/np/np-22.jpg",
-    width: 2300,
-    height: 1294,
-    alt: "Green Figurine",
-    title: "Green Figurine",
-    description:
-      "Minimalist green figurine displayed against a dark background with subtle lighting.",
-    camera: "Unknown Camera",
-    lens: "Unknown Lens",
-    fstop: "f/2.8",
-    exposure: "100",
-    iso: "100",
-    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
-  },
-  {
-    src: "assets/images/np/np-23.jpg",
-    width: 1725,
-    height: 2300,
-    alt: "Character Sketch",
-    title: "Character Sketch",
-    description:
-      "Simple line drawing of a rounded character on lined paper showing a playful design concept.",
-    camera: "Apple iPhone 11",
-    lens: "1.8/4.2mm",
-    fstop: "f/1.8",
-    exposure: "120",
-    iso: "50",
-    size: "tall", // Options: 'normal', 'wide', 'tall', 'large'
-  },
-  {
     src: "assets/images/np/np-21.jpg",
     width: 1725,
     height: 2300,
@@ -761,6 +731,64 @@ const galleryItems = [
     exposure: "180",
     iso: "64",
     size: "large", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  ,
+  {
+    src: "assets/images/np7/np-63.jpg",
+    width: 2400,
+    height: 1500,
+    alt: "Morning commute olympics",
+    title: "Morning commute olympics",
+    description:
+      "A cyclist making their way through the common, likely in their commute",
+    camera: "Hasselblad X2D 100C",
+    lens: "2.8/55.0mm",
+    fstop: "f/2.8",
+    exposure: "2000",
+    iso: "400",
+    size: "wide", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np7/np-66.jpg",
+    width: 1800,
+    height: 2400,
+    alt: "Proud sapling",
+    title: "Proud sapling",
+    description: "",
+    camera: "Hasselblad X2D 100C",
+    lens: "2.8/55.0mm",
+    fstop: "f/2.8",
+    exposure: "400",
+    iso: "64",
+    size: "tall", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np7/np-65.jpg",
+    width: 1920,
+    height: 2400,
+    alt: "Quality time doesn't come often",
+    title: "Quality time doesn't come often",
+    description: "",
+    camera: "Hasselblad X2D 100C",
+    lens: "8.0/55.0mm",
+    fstop: "f/8.0",
+    exposure: "60",
+    iso: "400",
+    size: "normal", // Options: 'normal', 'wide', 'tall', 'large'
+  },
+  {
+    src: "assets/images/np7/np-64.jpg",
+    width: 1600,
+    height: 2400,
+    alt: "Going to school is serious business",
+    title: "Going to school is serious business",
+    description: "",
+    camera: "Hasselblad X2D 100C",
+    lens: "3.2/55.0mm",
+    fstop: "f/3.2",
+    exposure: "2000",
+    iso: "400",
+    size: "tall", // Options: 'normal', 'wide', 'tall', 'large'
   },
 ];
 
